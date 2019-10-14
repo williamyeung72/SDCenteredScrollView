@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
+  `SDCenteredScrollView` is a lightweight drop in place `UICollectionViewFlowLayout` that pages and keeps its cells centered."
                        DESC
 
   s.homepage         = 'https://github.com/williamyeung72/SDCenteredScrollView'
