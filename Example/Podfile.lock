@@ -1,0 +1,16 @@
+PODS:
+  - SDCenteredScrollView (0.1.0)
+
+DEPENDENCIES:
+  - SDCenteredScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  SDCenteredScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDCenteredScrollView: 6db291e5f95f5f8fa322c58472fbd6b3783e65a8
+
+PODFILE CHECKSUM: 52826d39d11055af6d9b608e45035e80a9f15f3e
+
+COCOAPODS: 1.8.3

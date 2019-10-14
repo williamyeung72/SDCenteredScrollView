@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SDCenteredScrollView_Example' do
+  pod 'SDCenteredScrollView', :path => '../'
+
+  target 'SDCenteredScrollView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
