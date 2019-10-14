@@ -5,8 +5,8 @@ import UIKit
 
 open class SDCenteredCollectionViewLayout: UICollectionViewFlowLayout {
     
-    let standardItemAlpha: CGFloat = 0.5
-    let standardItemScale: CGFloat = 0.6
+    open var standardItemAlpha: CGFloat = 1
+    open var standardItemScale: CGFloat = 1
     @IBInspectable open var sideItemShift: CGFloat = 0.0
     
     open override func prepare() {
@@ -46,13 +46,13 @@ open class SDCenteredCollectionViewLayout: UICollectionViewFlowLayout {
 
         let ratio = (maxDistance - distance)/maxDistance
 
-//        let alpha = ratio * (1 - self.standardItemAlpha) + self.standardItemAlpha
-//        let scale = ratio * (1 - self.standardItemScale) + self.standardItemScale
+        let alpha = ratio * (1 - self.standardItemAlpha) + self.standardItemAlpha
+        let scale = ratio * (1 - self.standardItemScale) + self.standardItemScale
         let shift = (1 - ratio) * self.sideItemShift
 
-//        attributes.alpha = alpha
-//        attributes.zIndex = (Int(alpha * 10))
-//        attributes.transform3D = CATransform3DScale(CATransform3DIdentity, scale, scale, 1)
+        attributes.alpha = alpha
+        attributes.zIndex = (Int(alpha * 10))
+        attributes.transform3D = CATransform3DScale(CATransform3DIdentity, scale, scale, 1)
 
         attributes.center.x = attributes.center.x +  shift
     }
