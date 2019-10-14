@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		154E92E985A8EB117833920F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2EB9B3C61A015A66D1E4F7C8 /* SDCenteredScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SDCenteredScrollView.podspec; path = ../SDCenteredScrollView.podspec; sourceTree = "<group>"; };
+		154E92E985A8EB117833920F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2EB9B3C61A015A66D1E4F7C8 /* SDCenteredScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SDCenteredScrollView.podspec; path = ../SDCenteredScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3BA2159226F69316007427B3 /* Pods-SDCenteredScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCenteredScrollView_Example.release.xcconfig"; path = "Target Support Files/Pods-SDCenteredScrollView_Example/Pods-SDCenteredScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4BB3C95FBC2A8535ADF74240 /* Pods-SDCenteredScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCenteredScrollView_Example.debug.xcconfig"; path = "Target Support Files/Pods-SDCenteredScrollView_Example/Pods-SDCenteredScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		55B643E410B16CC64139D118 /* Pods-SDCenteredScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCenteredScrollView_Tests.release.xcconfig"; path = "Target Support Files/Pods-SDCenteredScrollView_Tests/Pods-SDCenteredScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		64A11ED1E1431E4382983125 /* Pods-SDCenteredScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCenteredScrollView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SDCenteredScrollView_Tests/Pods-SDCenteredScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E5E1842024D18F31DB0A5D8 /* Pods_SDCenteredScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDCenteredScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9859E04CEBE2FFEDA046F02D /* Pods_SDCenteredScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDCenteredScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C437561A66DACC95EC88EDA9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C437561A66DACC95EC88EDA9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				64A11ED1E1431E4382983125 /* Pods-SDCenteredScrollView_Tests.debug.xcconfig */,
 				55B643E410B16CC64139D118 /* Pods-SDCenteredScrollView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8V4KSDJ4HN;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,6 +479,7 @@
 			baseConfigurationReference = 4BB3C95FBC2A8535ADF74240 /* Pods-SDCenteredScrollView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8V4KSDJ4HN;
 				INFOPLIST_FILE = SDCenteredScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +495,7 @@
 			baseConfigurationReference = 3BA2159226F69316007427B3 /* Pods-SDCenteredScrollView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8V4KSDJ4HN;
 				INFOPLIST_FILE = SDCenteredScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

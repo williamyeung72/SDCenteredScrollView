@@ -16,8 +16,8 @@ open class D3CenteredCollectionViewLayout: UICollectionViewFlowLayout {
     open override func prepare() {
         super.prepare()
         
-        if collectionView?.decelerationRate != UIScrollViewDecelerationRateFast {
-            collectionView?.decelerationRate = UIScrollViewDecelerationRateFast
+        if collectionView?.decelerationRate != UIScrollView.DecelerationRate.fast {
+            collectionView?.decelerationRate = UIScrollView.DecelerationRate.fast
         }
         self.scrollDirection = .horizontal
 
