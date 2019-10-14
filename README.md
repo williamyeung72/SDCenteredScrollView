@@ -7,7 +7,7 @@
 
 ## Example
 
-![Demo](/demo.gif)
+![Demo](.github/demo.gif)
 
 ## Requirements
 
