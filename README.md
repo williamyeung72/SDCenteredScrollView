@@ -7,7 +7,7 @@
 
 ## Example 例範
 
-![Demo](.github/demo.gif)
+![Demo](Docs/demo.gif)
 
 ## Requirements 要求
 This pod requires a deployment target of iOS 9.0 or greater
