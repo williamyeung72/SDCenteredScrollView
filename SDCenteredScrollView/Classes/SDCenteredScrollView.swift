@@ -1,26 +1,22 @@
-//
-//  CenteredScrollViewFlowLayout.swift
-//  Pods-SDCenteredScrollView_Example
-//
-//  Created by MAC on 14/10/2019.
-//
+
 
 import Foundation
+import UIKit
 
-open class D3CenteredCollectionViewLayout: UICollectionViewFlowLayout {
+open class SDCenteredCollectionViewLayout: UICollectionViewFlowLayout {
     
-//    var standardItemAlpha: CGFloat = 0.5
-//    var standardItemScale: CGFloat = 0.6
+    let standardItemAlpha: CGFloat = 0.5
+    let standardItemScale: CGFloat = 0.6
     @IBInspectable open var sideItemShift: CGFloat = 0.0
     
     open override func prepare() {
         super.prepare()
         
-        if collectionView?.decelerationRate != UIScrollView.DecelerationRate.fast {
-            collectionView?.decelerationRate = UIScrollView.DecelerationRate.fast
+        if collectionView?.decelerationRate != UIScrollViewDecelerationRateFast {
+            collectionView?.decelerationRate = UIScrollViewDecelerationRateFast
         }
         self.scrollDirection = .horizontal
-
+//        self.minimumLineSpacing = -(self.itemSize.width * 0.10)
     }
 
 

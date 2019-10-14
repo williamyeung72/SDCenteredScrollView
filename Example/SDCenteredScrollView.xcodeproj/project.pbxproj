@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F52FD5BBDAEF78B442F4625 /* Pods_SDCenteredScrollView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5E1842024D18F31DB0A5D8 /* Pods_SDCenteredScrollView_Example.framework */; };
+		49FAF7A26613D9160D635CF6 /* Pods_SDCenteredScrollView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1C9D900B208D6F44EA7540 /* Pods_SDCenteredScrollView_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		9423F36DCC73708F4DF8D4A2 /* Pods_SDCenteredScrollView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9859E04CEBE2FFEDA046F02D /* Pods_SDCenteredScrollView_Tests.framework */; };
+		959CC8C5CC3B2C4B38FF6803 /* Pods_SDCenteredScrollView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5322394F5A7F49B2F7B138 /* Pods_SDCenteredScrollView_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,11 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		154E92E985A8EB117833920F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2EB9B3C61A015A66D1E4F7C8 /* SDCenteredScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SDCenteredScrollView.podspec; path = ../SDCenteredScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3BA2159226F69316007427B3 /* Pods-SDCenteredScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCenteredScrollView_Example.release.xcconfig"; path = "Target Support Files/Pods-SDCenteredScrollView_Example/Pods-SDCenteredScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4BB3C95FBC2A8535ADF74240 /* Pods-SDCenteredScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCenteredScrollView_Example.debug.xcconfig"; path = "Target Support Files/Pods-SDCenteredScrollView_Example/Pods-SDCenteredScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		55B643E410B16CC64139D118 /* Pods-SDCenteredScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCenteredScrollView_Tests.release.xcconfig"; path = "Target Support Files/Pods-SDCenteredScrollView_Tests/Pods-SDCenteredScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0B5344F5D71ABD5D22A931FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		12D65C2B7A37EE7974B5A62F /* Pods-SDCenteredScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCenteredScrollView_Tests.release.xcconfig"; path = "Target Support Files/Pods-SDCenteredScrollView_Tests/Pods-SDCenteredScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		18440AAA5DAA60634B2055F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2C1C9D900B208D6F44EA7540 /* Pods_SDCenteredScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDCenteredScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E5322394F5A7F49B2F7B138 /* Pods_SDCenteredScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDCenteredScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* SDCenteredScrollView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDCenteredScrollView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		607FACE51AFB9204008FA782 /* SDCenteredScrollView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDCenteredScrollView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		64A11ED1E1431E4382983125 /* Pods-SDCenteredScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCenteredScrollView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SDCenteredScrollView_Tests/Pods-SDCenteredScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7E5E1842024D18F31DB0A5D8 /* Pods_SDCenteredScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDCenteredScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9859E04CEBE2FFEDA046F02D /* Pods_SDCenteredScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDCenteredScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C437561A66DACC95EC88EDA9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A941328CF58D323FE6A93C79 /* Pods-SDCenteredScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCenteredScrollView_Example.release.xcconfig"; path = "Target Support Files/Pods-SDCenteredScrollView_Example/Pods-SDCenteredScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B35E3A907C0480181759BC13 /* Pods-SDCenteredScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCenteredScrollView_Example.debug.xcconfig"; path = "Target Support Files/Pods-SDCenteredScrollView_Example/Pods-SDCenteredScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E8D54E8CF97F6037BC7D8346 /* SDCenteredScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SDCenteredScrollView.podspec; path = ../SDCenteredScrollView.podspec; sourceTree = "<group>"; };
+		F51B5B05009F47EC33A4773A /* Pods-SDCenteredScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCenteredScrollView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SDCenteredScrollView_Tests/Pods-SDCenteredScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F52FD5BBDAEF78B442F4625 /* Pods_SDCenteredScrollView_Example.framework in Frameworks */,
+				49FAF7A26613D9160D635CF6 /* Pods_SDCenteredScrollView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,13 +62,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9423F36DCC73708F4DF8D4A2 /* Pods_SDCenteredScrollView_Tests.framework in Frameworks */,
+				959CC8C5CC3B2C4B38FF6803 /* Pods_SDCenteredScrollView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56D81C7682BD17E16F666319 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B35E3A907C0480181759BC13 /* Pods-SDCenteredScrollView_Example.debug.xcconfig */,
+				A941328CF58D323FE6A93C79 /* Pods-SDCenteredScrollView_Example.release.xcconfig */,
+				F51B5B05009F47EC33A4773A /* Pods-SDCenteredScrollView_Tests.debug.xcconfig */,
+				12D65C2B7A37EE7974B5A62F /* Pods-SDCenteredScrollView_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -76,8 +87,8 @@
 				607FACD21AFB9204008FA782 /* Example for SDCenteredScrollView */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				AA26836527A5D7B93C2A7F8D /* Pods */,
-				F9F728F60AFF9DBB4AC6A52E /* Frameworks */,
+				56D81C7682BD17E16F666319 /* Pods */,
+				B7A06FBF9E9FE73673DC9461 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,29 +143,18 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				2EB9B3C61A015A66D1E4F7C8 /* SDCenteredScrollView.podspec */,
-				C437561A66DACC95EC88EDA9 /* README.md */,
-				154E92E985A8EB117833920F /* LICENSE */,
+				E8D54E8CF97F6037BC7D8346 /* SDCenteredScrollView.podspec */,
+				0B5344F5D71ABD5D22A931FB /* README.md */,
+				18440AAA5DAA60634B2055F1 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		AA26836527A5D7B93C2A7F8D /* Pods */ = {
+		B7A06FBF9E9FE73673DC9461 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4BB3C95FBC2A8535ADF74240 /* Pods-SDCenteredScrollView_Example.debug.xcconfig */,
-				3BA2159226F69316007427B3 /* Pods-SDCenteredScrollView_Example.release.xcconfig */,
-				64A11ED1E1431E4382983125 /* Pods-SDCenteredScrollView_Tests.debug.xcconfig */,
-				55B643E410B16CC64139D118 /* Pods-SDCenteredScrollView_Tests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		F9F728F60AFF9DBB4AC6A52E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7E5E1842024D18F31DB0A5D8 /* Pods_SDCenteredScrollView_Example.framework */,
-				9859E04CEBE2FFEDA046F02D /* Pods_SDCenteredScrollView_Tests.framework */,
+				2C1C9D900B208D6F44EA7540 /* Pods_SDCenteredScrollView_Example.framework */,
+				4E5322394F5A7F49B2F7B138 /* Pods_SDCenteredScrollView_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -166,11 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SDCenteredScrollView_Example" */;
 			buildPhases = (
-				CAEB0BA519F5FCEECD5629A3 /* [CP] Check Pods Manifest.lock */,
+				374D9FF945F1A80E1388332E /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				C2244FB90B2E3B95FEBC7769 /* [CP] Embed Pods Frameworks */,
+				28B175A9F74FF3796AF7308B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,7 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SDCenteredScrollView_Tests" */;
 			buildPhases = (
-				80B8A293E1E7FCC5012FDEA3 /* [CP] Check Pods Manifest.lock */,
+				779661355CD9CB4F8D961162 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -217,6 +217,7 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8V4KSDJ4HN;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -263,29 +264,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		80B8A293E1E7FCC5012FDEA3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SDCenteredScrollView_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C2244FB90B2E3B95FEBC7769 /* [CP] Embed Pods Frameworks */ = {
+		28B175A9F74FF3796AF7308B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,7 +282,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SDCenteredScrollView_Example/Pods-SDCenteredScrollView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CAEB0BA519F5FCEECD5629A3 /* [CP] Check Pods Manifest.lock */ = {
+		374D9FF945F1A80E1388332E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -319,6 +298,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SDCenteredScrollView_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		779661355CD9CB4F8D961162 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDCenteredScrollView_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -476,7 +477,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BB3C95FBC2A8535ADF74240 /* Pods-SDCenteredScrollView_Example.debug.xcconfig */;
+			baseConfigurationReference = B35E3A907C0480181759BC13 /* Pods-SDCenteredScrollView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8V4KSDJ4HN;
@@ -492,7 +493,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BA2159226F69316007427B3 /* Pods-SDCenteredScrollView_Example.release.xcconfig */;
+			baseConfigurationReference = A941328CF58D323FE6A93C79 /* Pods-SDCenteredScrollView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8V4KSDJ4HN;
@@ -508,8 +509,9 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64A11ED1E1431E4382983125 /* Pods-SDCenteredScrollView_Tests.debug.xcconfig */;
+			baseConfigurationReference = F51B5B05009F47EC33A4773A /* Pods-SDCenteredScrollView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 8V4KSDJ4HN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -530,8 +532,9 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55B643E410B16CC64139D118 /* Pods-SDCenteredScrollView_Tests.release.xcconfig */;
+			baseConfigurationReference = 12D65C2B7A37EE7974B5A62F /* Pods-SDCenteredScrollView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 8V4KSDJ4HN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

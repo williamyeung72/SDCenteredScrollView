@@ -11,12 +11,12 @@
 		1705B5A8707607E4A6E9733206370D40 /* Pods-SDCenteredScrollView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE16CB9A9007127F4B0EC02DBFBF156 /* Pods-SDCenteredScrollView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18CA61421941FF0AEA4FB0E5E4481085 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		33F0D8A4FBA0B48B5F3BCE9CC98953CD /* SDCenteredScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4016359F7C8B917E9EB9A2AE8374E92 /* SDCenteredScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		415C1FA523542C8F00D9E470 /* CenteredScrollViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415C1FA423542C8F00D9E470 /* CenteredScrollViewFlowLayout.swift */; };
 		7164B55A1DB1FFB05CA8A9AC9C631F35 /* SDCenteredScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FCFA9A95F5C4BD6D575CF20DDF677C /* SDCenteredScrollView-dummy.m */; };
 		8268AA84BAAADFAC341B4071AAAB3BDE /* Pods-SDCenteredScrollView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F7B09E69335DED71A995F5171CAE94 /* Pods-SDCenteredScrollView_Tests-dummy.m */; };
 		886306569533D66847345B81387AE288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C26BE681078A37608027352809C3D70B /* Pods-SDCenteredScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B98C67B53F6BC93466B2E42DC599A9A /* Pods-SDCenteredScrollView_Example-dummy.m */; };
 		C9793FD05BE51CA4C204EA6646C7AC86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DDFE1D903378CC6FC5762A6F7B04C09E /* SDCenteredScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28E945FC0D7FFE51895F9D862D3F6 /* SDCenteredScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +43,10 @@
 		22FCFA9A95F5C4BD6D575CF20DDF677C /* SDCenteredScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDCenteredScrollView-dummy.m"; sourceTree = "<group>"; };
 		26C392A1C2F333E9E5B2847FFA993F1D /* Pods-SDCenteredScrollView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDCenteredScrollView_Tests.modulemap"; sourceTree = "<group>"; };
 		2A0A68219F9B57C2C2B1FBF338071F93 /* Pods-SDCenteredScrollView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDCenteredScrollView_Example-umbrella.h"; sourceTree = "<group>"; };
+		2BE28E945FC0D7FFE51895F9D862D3F6 /* SDCenteredScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDCenteredScrollView.swift; path = SDCenteredScrollView/Classes/SDCenteredScrollView.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32B24AC27A90744ADEB5127B421A4DFE /* SDCenteredScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDCenteredScrollView-prefix.pch"; sourceTree = "<group>"; };
 		36F7B09E69335DED71A995F5171CAE94 /* Pods-SDCenteredScrollView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDCenteredScrollView_Tests-dummy.m"; sourceTree = "<group>"; };
-		415C1FA423542C8F00D9E470 /* CenteredScrollViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CenteredScrollViewFlowLayout.swift; path = SDCenteredScrollView/Classes/CenteredScrollViewFlowLayout.swift; sourceTree = "<group>"; };
 		623974C7441941E7CBA16E07AA732594 /* SDCenteredScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SDCenteredScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		63AB344CAD25A1391AC0A795594450EE /* Pods-SDCenteredScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDCenteredScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7B62943998D13F58DFE3F0AB4A839C70 /* Pods_SDCenteredScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDCenteredScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,7 +167,7 @@
 		BC24A187CC89DC31B4F4D9FCC10DE58D /* SDCenteredScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				415C1FA423542C8F00D9E470 /* CenteredScrollViewFlowLayout.swift */,
+				2BE28E945FC0D7FFE51895F9D862D3F6 /* SDCenteredScrollView.swift */,
 				41F024DD5949E1B7DFC6C39933AE5A02 /* Pod */,
 				262399B30E24A8CE6A951CF096FB226E /* Support Files */,
 			);
@@ -315,11 +315,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					0E17F949C80FB8827DB3E599A5C7FEF6 = {
-						LastSwiftMigration = 1110;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -377,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDFE1D903378CC6FC5762A6F7B04C09E /* SDCenteredScrollView.swift in Sources */,
 				7164B55A1DB1FFB05CA8A9AC9C631F35 /* SDCenteredScrollView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,7 +382,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C26BE681078A37608027352809C3D70B /* Pods-SDCenteredScrollView_Example-dummy.m in Sources */,
-				415C1FA523542C8F00D9E470 /* CenteredScrollViewFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,7 +504,6 @@
 			baseConfigurationReference = 17B61977032FF2D6404264D117E6485F /* Pods-SDCenteredScrollView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -532,8 +526,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -702,7 +694,6 @@
 			baseConfigurationReference = 8EAF5E5C104CE549812B3685236F8BE4 /* Pods-SDCenteredScrollView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -725,7 +716,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
