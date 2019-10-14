@@ -5,14 +5,14 @@
 [![Platform](https://img.shields.io/cocoapods/p/SDCenteredScrollView.svg?style=flat)](https://cocoapods.org/pods/SDCenteredScrollView)
 
 
-## Example
+## Example 例範
 
 ![Demo](.github/demo.gif)
 
-## Requirements
+## Requirements 要求
 This pod requires a deployment target of iOS 9.0 or greater
 
-## Installation
+## Installation 安裝
 
 SDCenteredScrollView is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -20,10 +20,14 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SDCenteredScrollView'
 ```
-## Programmatic Usage
+## Programmatic Usage 使用
+1. Import Library 
+1. 匯入SDCenteredScrollView庫
 ```Swift
     import SDCenteredScrollView
 ```
+2. Create and Apply SDCenteredCollectionViewLayout 
+2. 建立SDCenteredCollectionViewLayout
 ```Swift
     private var collectionView: UICollectionView = {
         
@@ -44,6 +48,8 @@ pod 'SDCenteredScrollView'
         return collectionView
     }()
 ```
+3. Adjest Insets for the focused is center cell
+3. 修改左右邊界令當首個元件(Cell)由中間開結
 ```Swift
     extension ViewController: UICollectionViewDelegateFlowLayout{
       func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
