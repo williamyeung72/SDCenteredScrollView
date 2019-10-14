@@ -22,10 +22,9 @@ pod 'SDCenteredScrollView'
 ```
 ## Programmatic Usage
 ```Swift
-  import SDCenteredScrollView
+    import SDCenteredScrollView
 ```
 ```Swift
-
     private var collectionView: UICollectionView = {
         
         let flowLayout = SDCenteredCollectionViewLayout()
@@ -45,7 +44,16 @@ pod 'SDCenteredScrollView'
         return collectionView
     }()
 ```
-
+```Swift
+    extension ViewController: UICollectionViewDelegateFlowLayout{
+      func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+      
+      let leftEdgeInsets = collectionView.frame.size.width / 2 - ((self.cardSize.width) / 2)
+      let rightEdgeInsets = collectionView.frame.size.width / 2 - ((self.cardSize.width) / 2)
+        
+      return UIEdgeInsets(top: 0, left: leftEdgeInsets, bottom: 0, right: rightEdgeInsets);
+    }
+```
 
 ## Author
 
