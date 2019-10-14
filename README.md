@@ -10,6 +10,7 @@
 ![Demo](.github/demo.gif)
 
 ## Requirements
+This pod requires a deployment target of iOS 9.0 or greater
 
 ## Installation
 
@@ -19,6 +20,32 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SDCenteredScrollView'
 ```
+## Programmatic Usage
+```Swift
+  import SDCenteredScrollView
+```
+```Swift
+
+    private var collectionView: UICollectionView = {
+        
+        let flowLayout = SDCenteredCollectionViewLayout()
+        flowLayout.scrollDirection = .horizontal
+        flowLayout.itemSize = CGSize(width: 100, height: 100)
+        
+        flowLayout.minimumLineSpacing = 10//default = 10
+        flowLayout.standardItemAlpha = 0.5//default = 1
+        flowLayout.standardItemScale = 0.8//defaul = 1
+        
+        let collectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: flowLayout)
+        collectionView.backgroundColor = .clear
+        collectionView.showsHorizontalScrollIndicator = false
+        collectionView.showsVerticalScrollIndicator = false
+        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
+        collectionView.translatesAutoresizingMaskIntoConstraints = false
+        return collectionView
+    }()
+```
+
 
 ## Author
 
