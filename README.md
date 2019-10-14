@@ -61,10 +61,10 @@ pod 'SDCenteredScrollView'
     }
 ```
 
-## Author
+## Author 作者
 
 William Yeung, william.yeung@relaxops.com
 
-## License
+## License 許可版權
 
 SDCenteredScrollView is available under the MIT license. See the LICENSE file for more info.
