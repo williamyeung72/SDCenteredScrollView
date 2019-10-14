@@ -21,11 +21,11 @@ it, simply add the following line to your Podfile:
 pod 'SDCenteredScrollView'
 ```
 ## Programmatic Usage 使用
-1. Import Library\n匯入SDCenteredScrollView庫
+1. Import Library\匯入SDCenteredScrollView庫
 ```Swift
     import SDCenteredScrollView
 ```
-2. Create and Apply SDCenteredCollectionViewLayout\n建立SDCenteredCollectionViewLayout
+2. Create and Apply SDCenteredCollectionViewLayout\建立SDCenteredCollectionViewLayout
 ```Swift
     private var collectionView: UICollectionView = {
         
@@ -46,7 +46,7 @@ pod 'SDCenteredScrollView'
         return collectionView
     }()
 ```
-3. Adjest Insets for the focused is center cell\n修改左右邊界令當首個元件(Cell)由中間開結
+3. Adjest Insets for the focused is center cell\修改左右邊界令當首個元件(Cell)由中間開結
 ```Swift
     extension ViewController: UICollectionViewDelegateFlowLayout{
       func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
